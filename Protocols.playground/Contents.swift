@@ -11,7 +11,7 @@ class Person {
     var favoriteFood: String
     
     var description: String {
-        return "Name: \(jim.name) \nHeight: \(jim.height) \nFavorite Food: \(jim.favoriteFood)"
+        return "Name: \(name) \nHeight: \(height) \nFavorite Food: \(favoriteFood)"
     }
     
     init(name: String, height: Double, favoriteFood: String) {
